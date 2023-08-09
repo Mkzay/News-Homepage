@@ -240,5 +240,11 @@ main button:hover {
 
 
 @media screen and (min-width: 1000px) {
-    
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 15px;
+    }    
 }
